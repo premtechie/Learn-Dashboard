@@ -34,7 +34,7 @@
     color: #0C0B0B;
 }
 .textContainer{
-    /* margin-left: 20px; */
+    margin-left: 10px;
     display: flex;
     flex-direction: column;
     align-items: self-start;
@@ -46,9 +46,11 @@
     font-size: 13px;
     line-height: 15px;
     color: #0C0B0B;
+    white-space: nowrap;
 }
 .continue{
-    width: 120px;
+    /* width: 30%;
+    width: 120px; */
     background: #0C0B0B;
     margin-left: 10px;
     border: none;
@@ -78,4 +80,32 @@
 .arrow{
     width: 20px;
     height: 20px;
+}
+@media(max-width:850px){
+    .sliderMain{
+        width: 90%;
+        padding: 15px;
+    }
+    .sliderIconContainer{
+        width: 15%;
+        margin-left: 5px;        
+    }
+    .arrowBox{
+        width: 25px;
+        height: 25px;
+    }
+    .arrow{
+        width: 15px;
+        height: 15px;
+    }
+    .text1{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .continue{
+        /* width: 20%; */
+        margin-left: 5px;
+        padding: 5px;
+        font-size: 11px;
+    }
 }

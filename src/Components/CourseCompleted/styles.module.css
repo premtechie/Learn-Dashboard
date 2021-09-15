@@ -1,0 +1,26 @@
+.mainContainer{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 96px;
+    background: #F5F5F7;
+    padding: 10px;
+    border-radius: 14px;
+    /* margin: 0 15px 0 0; */
+}
+.completedNumber{
+    color: #0C0B0B;
+    font-family: 'Baloo 2';
+    font-size: 64px;
+    font-weight: 800;
+}
+.completedText{
+    width: 50%;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0C0B0B;
+    text-align: start;
+    font-weight: 600;
+}

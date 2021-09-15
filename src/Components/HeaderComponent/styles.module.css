@@ -6,6 +6,10 @@
     background: #F5F5F7;
     border-radius: 14px;
     display: flex;
+    position: relative;
+}
+.headerTextContainer{
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
@@ -20,8 +24,26 @@
     color: #0C0B0B;
     margin-left: 20px;
 }
-
+.helloImg{
+    position: absolute;
+    bottom: 0;
+    right: 18%;
+    height: 180px;
+}
 .headerDesc{
     margin-left: 20px;
     line-height: 30px;
+}
+
+@media(max-width:950px){
+    .headerComponent{
+        margin-top: 2%;
+    }
+    .headerText{
+        font-size: 26px;
+        height: 45px;
+    }
+    .helloImg{
+        right: 0;
+    }
 }

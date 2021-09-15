@@ -1,0 +1,25 @@
+.mainContainer{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 96px;
+    padding: 10px;
+    background: #F5F5F7;
+    border-radius: 14px;
+}
+.courseNumber{
+    color: #0C0B0B;
+    font-family: 'Baloo 2';
+    font-size: 64px;
+    font-weight: 800;
+}
+.courseText{
+    width: 50%;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0C0B0B;
+    text-align: start;
+    font-weight: 600;
+}

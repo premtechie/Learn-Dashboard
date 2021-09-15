@@ -1,0 +1,26 @@
+
+.searchHeader{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.icon{
+    width: 24px;
+    height: 24px;
+    margin: 0 15px;
+}
+.profileContainer{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+.profileIcon{
+    width: 40px;
+    height: 40px;
+}
+.downArrow{
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+}
