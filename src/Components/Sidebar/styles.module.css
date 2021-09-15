@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;800&display=swap');
+.mainContainer{
+    width: 132px;
+    height: 92vh;
+    background-color: black;
+    border-radius: 24px;
+    box-shadow: 10px 8px 33px -5px rgba(0,0,0,0.48);
+-webkit-box-shadow: 10px 8px 33px -5px rgba(0,0,0,0.48);
+-moz-box-shadow: 10px 8px 33px -5px rgba(0,0,0,0.48);
+}
+.logo{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 102px;
+    color: #FFFFFF;
+    height: 20%;
+}
+.navList{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+.icon1{
+    width: 26px;
+    height: 10px;
+    cursor: pointer;
+}
+.iconContainer{
+    width: 120px;
+    height: 60px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconContainer2{
+    width: 120px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.iconContainer3{
+    width: 120px;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+.navSub{
+    height: 70%;
+}
