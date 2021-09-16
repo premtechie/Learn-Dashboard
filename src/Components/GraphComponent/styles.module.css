@@ -1,0 +1,60 @@
+.graphContainer{
+    width: 100%;
+    /* overflow-x: scroll; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 3% 0;
+}
+.graphContainer::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+.graphHeader{
+    font-family: 'Baloo 2';
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 38px;
+    color: #0C0B0B;
+    /* margin: 3% 2%; */
+}
+.tab{
+    display: flex;
+    /* margin: 2% 0; */
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.active{
+    font-family: 'Baloo 2';
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 26px;
+    color: #0C0B0B;
+    cursor: pointer;
+}
+.tabList{
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 26px;
+    color: #0C0B0B;
+    cursor: pointer;
+    opacity: 0.3;
+    margin-left:  20px;
+}
+.tabContainer{
+    display: flex;
+}
+.selectContainer{
+    margin: 0 20px;
+}
+.lineChart{
+    width: 100%;
+    overflow-x: auto;
+}
+.lineChart::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}

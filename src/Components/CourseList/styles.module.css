@@ -31,12 +31,11 @@
     line-height: 26px;
     color: #0C0B0B;
     cursor: pointer;
+    opacity: 1;
 }
 .cardContainer{
-    height: 230px;
+    max-height: 300px;
     overflow-y: scroll;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none;
 }
 .cardContainer::-webkit-scrollbar { /* WebKit */
     width: 0;

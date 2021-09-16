@@ -4,6 +4,7 @@ import CourseList from '../../Components/CourseList';
 import CourseProgress from '../../Components/CourseProgress';
 import GraphComponent from '../../Components/GraphComponent';
 import HeaderComponent from '../../Components/HeaderComponent';
+import LearnMoreComponent from '../../Components/LearnMoreComponent';
 import PendingCourseSlider from '../../Components/PendingCourseSlider';
 import SearchBar from '../../Components/SearchBar';
 import Sidebar from '../../Components/Sidebar'
@@ -41,6 +42,12 @@ export default function Dashboard() {
                 <HeaderComponent />
                 <PendingCourseSlider />
                 <CourseList />
+                <div className={styles.showGraph}>
+                    <GraphComponent />
+                </div>
+                <div className={styles.showLearnMore}>
+                    <LearnMoreComponent />
+                </div>
             </div>
             <div className={styles.rightContainer}>
                 <SearchBar />
@@ -51,6 +58,7 @@ export default function Dashboard() {
                 <div className={styles.graphComponent}>
                     <GraphComponent />
                 </div>
+                <LearnMoreComponent />
             </div>
         </div>
     )

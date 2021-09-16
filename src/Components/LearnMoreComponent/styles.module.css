@@ -1,0 +1,58 @@
+.mainContainer{
+    width: 100%;
+    height: 193px;
+    background: #F5F5F7;
+    border-radius: 14px;
+    display:flex;
+    align-items: center;
+    padding: 24px;
+}
+.textContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.titleText{
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 38px;
+    color: #0C0B0B;
+}
+.textDesc{
+    width: 90%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0C0B0B;
+    text-align: start;
+    margin: 10px 0;
+}
+
+.bookImage{
+    width: 50%;
+    text-align:end;
+}
+.button{
+    width: 120px;
+    background: #0C0B0B;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    color: white;
+    padding: 8px;
+    font-size: 12px;
+    cursor: pointer;
+}
+@media(max-width:500px){
+    .titleText{
+        font-size: 20px;
+    }
+    .textDesc{
+        font-size: 12px;
+    }
+}
