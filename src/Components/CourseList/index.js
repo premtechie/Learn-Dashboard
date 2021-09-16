@@ -2,22 +2,16 @@ import React,{useEffect, useState} from 'react'
 import styles from './styles.module.css';
 import clock from '../../Assets/Images/clock.svg'
 import fire from '../../Assets/Images/fire.svg'
-import figma from '../../Assets/Images/figma.svg'
-import photoShop from '../../Assets/Images/photoshop.svg';
-import pencil from '../../Assets/Images/pencil.png';
-import instagram from '../../Assets/Images/instagram.svg'
-import click from '../../Assets/Images/click.png'
 import classNames from 'classnames';
 import {allCourseList,mostPopular,topRated,newCourse} from './courseData'
+import { v4 as uuidv4 } from 'uuid';
 
-
-
-    
 
 function CourseList() {
 
     const [navTab,setNavTab] = useState(0);
     const [cardList,setCardList] = useState([]);
+   
     useEffect(()=>{
         setCardList(allCourseList)
     },[])
@@ -34,7 +28,8 @@ function CourseList() {
         {name:'Most Popular',
             id:3
         }
-    ]
+    ];
+
     return (
         <div>
             <div className={styles.title}>Courses</div>
@@ -58,7 +53,6 @@ function CourseList() {
                                     setCardList(mostPopular)
                                 }
                             }}
-
                         >
                             {item.name}
                         </div>
@@ -68,7 +62,7 @@ function CourseList() {
             <div className={styles.cardContainer}>
                 {
                 cardList.map(cardItem=>
-                    <div className={styles.card} >
+                    <div className={styles.card} key={uuidv4()} >
                         <div className={styles.imgComp}>
                             <img className={styles.imageIcon} src={cardItem.componentImage} alt='' />
                         </div>
@@ -84,7 +78,7 @@ function CourseList() {
                             <img src={fire} alt='' className={styles.icon} />
                             <div className={styles.rating}>{cardItem.rating}</div>
                         </div>
-                        <button className={styles.viewCourse}>
+                        <button className={styles.viewCourse} >
                             viewCourse
                         </button>
                     </div>

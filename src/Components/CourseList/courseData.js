@@ -9,31 +9,37 @@ export const allCourseList = [
         courseTitle:"Learn Figma",
         courseDoneBy:"by Christopher Morgan",
         time:"6h 30min",
-        rating:4.9
+        rating:4.9,
+        url:'https://www.youtube.com/watch?v=FTFaQWZBqQ8'
     },
     { componentImage:click,
         courseTitle:"Analog Photography",
         courseDoneBy:"by Gordan Norman",
         time:"3h 15min",
-        rating:4.7
+        rating:4.7,
+        url:'https://www.youtube.com/watch?v=V7z7BAZdt2M'
     },
     { componentImage:instagram,
         courseTitle:"Master Instagram",
         courseDoneBy:"by Sophie Gill",
         time:"7h 40min",
-        rating:4.6
+        rating:4.6,
+        url:'https://www.youtube.com/watch?v=V7z7BAZdt2M'
     },
     { componentImage:pencil,
         courseTitle:"Basics of drawing",
         courseDoneBy:"by Jean Tate",
         time:"11h 30min",
-        rating:4.8
+        rating:4.8,
+        url:'https://www.youtube.com/watch?v=V7z7BAZdt2M'
+
     },
     { componentImage:photoShop,
         courseTitle:"Photoshop - Essence",
         courseDoneBy:"by David Green",
         time:"5h 35min",
-        rating:4.7
+        rating:4.7,
+        url:'https://www.youtube.com/watch?v=V7z7BAZdt2M'
     },
 ]
 
