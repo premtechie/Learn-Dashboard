@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Sodipodi ("http://www.sodipodi.com/") -->
+<svg
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://web.resource.org/cc/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    id="svg1"
+    viewBox="0 0 1000 500"
+    version="1"
+    y="0"
+    x="0"
+  >
+  <g
+      id="g602"
+      transform="scale(8.3333)"
+    >
+    <rect
+        id="rect124"
+        style="stroke-width:1pt;fill:#000066"
+        height="60"
+        width="120"
+        y="0"
+        x="0"
+    />
+    <g
+        id="g584"
+      >
+      <path
+          id="path146"
+          style="stroke-width:1pt;fill:#ffffff"
+          d="m0 0v3.3541l53.292 26.646h6.708v-3.354l-53.292-26.646h-6.708zm60 0v3.354l-53.292 26.646h-6.708v-3.354l53.292-26.646h6.708z"
+      />
+      <path
+          id="path136"
+          style="stroke-width:1pt;fill:#ffffff"
+          d="m25 0v30h10v-30h-10zm-25 10v10h60v-10h-60z"
+      />
+      <path
+          id="path141"
+          style="stroke-width:1pt;fill:#cc0000"
+          d="m0 12v6h60v-6h-60zm27-12v30h6v-30h-6z"
+      />
+      <path
+          id="path150"
+          style="stroke-width:1pt;fill:#cc0000"
+          d="m0 30l20-10h4.472l-20 10h-4.472zm0-30l20 10h-4.472l-15.528-7.7639v-2.2361zm35.528 10l20-10h4.472l-20 10h-4.472zm24.472 20l-20-10h4.472l15.528 7.764v2.236z"
+      />
+    </g
+    >
+    <polygon
+        id="polygon589"
+        style="fill-rule:evenodd;stroke-width:1pt;fill:#ffffff"
+        points="30 36 31.736 41.396 37.036 39.389 33.9 44.11 38.774 47.003 33.127 47.494 33.905 53.109 30 49 26.095 53.109 26.873 47.494 21.226 47.003 26.1 44.11 22.964 39.389 28.264 41.396"
+    />
+    <g
+        id="g596"
+      >
+      <polygon
+          id="polygon590"
+          style="fill-rule:evenodd;stroke-width:1pt;fill:#ffffff"
+          points="90 45.714 90.826 48.284 93.351 47.328 91.857 49.576 94.178 50.954 91.489 51.188 91.86 53.861 90 51.905 88.14 53.861 88.511 51.188 85.822 50.954 88.143 49.576 86.649 47.328 89.174 48.284"
+      />
+      <polygon
+          id="polygon592"
+          style="fill-rule:evenodd;stroke-width:1pt;fill:#ffffff"
+          points="90 5.7143 90.826 8.2839 93.351 7.3279 91.857 9.5762 94.178 10.954 91.489 11.188 91.86 13.861 90 11.905 88.14 13.861 88.511 11.188 85.822 10.954 88.143 9.5762 86.649 7.3279 89.174 8.2839"
+      />
+      <polygon
+          id="polygon593"
+          style="fill-rule:evenodd;stroke-width:1pt;fill:#ffffff"
+          points="75 21.964 75.826 24.534 78.351 23.578 76.857 25.826 79.178 27.204 76.489 27.438 76.86 30.111 75 28.155 73.14 30.111 73.511 27.438 70.822 27.204 73.143 25.826 71.649 23.578 74.174 24.534"
+      />
+      <polygon
+          id="polygon594"
+          style="fill-rule:evenodd;stroke-width:1pt;fill:#ffffff"
+          points="103.33 17.964 104.16 20.534 106.68 19.578 105.19 21.826 107.51 23.204 104.82 23.438 105.19 26.111 103.33 24.155 101.47 26.111 101.84 23.438 99.155 23.204 101.48 21.826 99.983 19.578 102.51 20.534"
+      />
+      <polygon
+          id="polygon595"
+          style="fill-rule:evenodd;stroke-width:1pt;fill:#ffffff"
+          points="96 30 96.653 31.601 98.378 31.728 97.057 32.843 97.47 34.522 96 33.611 94.53 34.522 94.943 32.843 93.622 31.728 95.347 31.601"
+      />
+    </g
+    >
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>
