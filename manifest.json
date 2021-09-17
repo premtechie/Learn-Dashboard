@@ -4,8 +4,7 @@
   "theme_color": "#000000",
   "background_color": "#000000",
   "display": "standalone",
-  "scope": "https://premtechie.github.io/Learn-Dashboard/",
-  "start_url": "https://premtechie.github.io/Learn-Dashboard/",
+  "start_url": ".",
   "icons":[
     {
       "src":"maskable.png",
