@@ -4,8 +4,7 @@
   "theme_color": "#000000",
   "background_color": "#000000",
   "display": "standalone",
-  "scope": "/",
-  "start_url": "https://premtechie.github.io/",
+  "start_url": ".",
   "icons":[
     {
       "src":"maskable.png",
